@@ -1,0 +1,76 @@
+body {
+  font-size: 16px;
+  color: black;
+  background-color: white;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+/** HEADER **/
+#header-nav {
+  background-color: gray;
+  border-radius: 0;
+  border: 3px solid black;
+}
+
+.navbar-brand {
+  padding-top: 20px;
+}
+
+.navbar-brand h1 {
+  color: black;
+  font-size: 2em;
+  text-transform: uppercase;
+  font-weight: bold;
+  margin-top: 0;
+  margin-bottom: 0;
+  line-height: 0.75;
+}
+#collapsable-nav {
+  margin-top: 27px;
+}
+#nav-list a,
+#nav-list a:active {
+  text-align: center;
+  font-size: 1.6em;
+  color: black;
+}
+
+#nav-list a:hover {
+  background-color: #e7e7e7;
+}
+
+.navbar-header button.navbar-toggle,
+.navbar-header .icon-bar {
+  border: 1px solid black;
+}
+
+.navbar-header button.navbar-toggle {
+  clear: both;
+  margin-top: -30px;
+}
+
+/** ENE HEADER**/
+
+/**BODY**/
+h2 {
+  font-weight: bold;
+}
+#chicken,
+#beef,
+#sushi {
+  background-color: gray;
+  border: 3px solid black;
+  height: 700px;
+  margin-bottom: 15px;
+}
+
+#chicken a,
+#beef a,
+#sushi a {
+  position: absolute;
+  left: 20px;
+  bottom: 20px;
+  color: black;
+}
+
+/**END BODY**/
